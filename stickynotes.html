@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="stickynotes.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mandali' rel='stylesheet'>
+    <script src="stickynotes.js"></script>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="container hoofding">
+            <div id="titel" class="row text-center">
+                <div class="col-md-12 text-center">
+                    <h1>Sticky Notes</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row ingave"> 
+                    <div class="col-md-8">
+                        <input type="text" id="tekst" class="form-control" id="tekst" placeholder="Typ een boodschap" name="tekst">
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <button type="button" id="voegToe" class="btn btn-primary myButton">Sticky toevoegen</button>
+                        <button type="button" id="wis" class="btn btn-primary myButton">Alles wissen</button>
+                    </div>
+            </div>
+            <div class="opmerkingen row text-center">
+                <span class="col-md-4">Druk op ENTER om sticky toe te voegen</span>
+                <span class="col-md-4"> Klik rechts op sticky om tekst te wijzigen</span>
+                <span class="col-md-4"> Dubbelklik op sticky om te verwijderen</span>
+            </div>
+        </div>
+        <div id="stickyboard" class="container row">
+            <!--Voeg class justify-content-around op om ze niet tegen elkaar geplakt te hebben-->
+        </div>
+    </div>
+    <br>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
